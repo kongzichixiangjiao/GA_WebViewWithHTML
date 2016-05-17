@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let w = GA_WebView(frame: self.view.bounds)
+        self.view.addSubview(w)
+        //注意数据源的图片url   "\"http://a.hiphotos.baidu.com/image/pic/item/574e9258d109b3de643c7652cbbf6c81800a4c0d.jpg\""
+        
+        w.data = [["img" : "\"http://a.hiphotos.baidu.com/image/pic/item/574e9258d109b3de643c7652cbbf6c81800a4c0d.jpg\""], ["txt" : "我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊"], ["txt" : "我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊"], ["img" : "\"http://a.hiphotos.baidu.com/image/pic/item/574e9258d109b3de643c7652cbbf6c81800a4c0d.jpg\""], ["img" : "\"http://a.hiphotos.baidu.com/image/pic/item/574e9258d109b3de643c7652cbbf6c81800a4c0d.jpg\""], ["txt" : "我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊我是而是 啊啊啊啊啊啊啊"]]
+        w.loadHTMLString(w.HTMLString(), baseURL: nil)
     }
 
     override func didReceiveMemoryWarning() {

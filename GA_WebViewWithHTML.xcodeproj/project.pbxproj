@@ -14,6 +14,7 @@
 		DC35649A1CEAFF8A00B5E36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3564981CEAFF8A00B5E36A /* LaunchScreen.storyboard */; };
 		DC3564A51CEAFF8A00B5E36A /* GA_WebViewWithHTMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3564A41CEAFF8A00B5E36A /* GA_WebViewWithHTMLTests.swift */; };
 		DC3564B01CEAFF8A00B5E36A /* GA_WebViewWithHTMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3564AF1CEAFF8A00B5E36A /* GA_WebViewWithHTMLUITests.swift */; };
+		DC3564BE1CEAFF9400B5E36A /* GA_WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3564BD1CEAFF9400B5E36A /* GA_WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DC3564AB1CEAFF8A00B5E36A /* GA_WebViewWithHTMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_WebViewWithHTMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3564AF1CEAFF8A00B5E36A /* GA_WebViewWithHTMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_WebViewWithHTMLUITests.swift; sourceTree = "<group>"; };
 		DC3564B11CEAFF8A00B5E36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3564BD1CEAFF9400B5E36A /* GA_WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DC35648F1CEAFF8A00B5E36A /* AppDelegate.swift */,
 				DC3564911CEAFF8A00B5E36A /* ViewController.swift */,
+				DC3564BD1CEAFF9400B5E36A /* GA_WebView.swift */,
 				DC3564931CEAFF8A00B5E36A /* Main.storyboard */,
 				DC3564961CEAFF8A00B5E36A /* Assets.xcassets */,
 				DC3564981CEAFF8A00B5E36A /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3564BE1CEAFF9400B5E36A /* GA_WebView.swift in Sources */,
 				DC3564921CEAFF8A00B5E36A /* ViewController.swift in Sources */,
 				DC3564901CEAFF8A00B5E36A /* AppDelegate.swift in Sources */,
 			);
